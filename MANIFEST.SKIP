@@ -1,0 +1,7 @@
+^\.
+\.tar\.gz$
+^Makefile$
+^cfg
+^data
+^dep
+^pm_to_blib
