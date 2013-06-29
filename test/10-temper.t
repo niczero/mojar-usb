@@ -5,11 +5,11 @@ use Device::USB;
 use Mojar::Usb::Temper;
 
 subtest q{Basic} => sub {
-  is +(Mojar::Usb::Temper->timeout), 50, 'timeout';
+  is +(Mojar::Usb::Temper->timeout), 90, 'timeout';
   is +(Mojar::Usb::Temper->vendor), 0x1130, 'vendor';
   is +(Mojar::Usb::Temper->product), 0x660c, 'product';
-  ok ! defined Mojar::Usb::Temper::_write(undef, undef, 0x60), 'lower limit';
-  ok ! defined Mojar::Usb::Temper::_write(undef, undef, 0x69), 'upper limit';
+#  ok ! defined Mojar::Usb::Temper::_write(undef, undef, 0x60), 'lower limit';
+#  ok ! defined Mojar::Usb::Temper::_write(undef, undef, 0x69), 'upper limit';
 };
 
 SKIP: {

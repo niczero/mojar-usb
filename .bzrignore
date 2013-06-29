@@ -1,5 +1,4 @@
-.build/
-.bzr/
+.git/
 .session
 blib/
 dep/
