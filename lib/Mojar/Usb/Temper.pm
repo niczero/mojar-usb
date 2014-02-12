@@ -1,7 +1,7 @@
 package Mojar::Usb::Temper;
 use Mojo::Base -base;
 
-our $VERSION = 0.121;
+our $VERSION = 0.122;
 
 use Device::USB;
 use Time::HiRes 'sleep';
@@ -363,9 +363,6 @@ time sampling a sensor you're ignoring.
 There are various tools for getting readings from your thermometer(s), including
 a very popular perl module.  The other tools may support more devices and return
 temperature readings quicker, but at the cost of coarser resolution, less
-control, less reliable values, and sometimes segmentation faults.  One
-deployment of this code is to control a high-cost central heating boiler for my
-young family through the dark winters on a wind-swept island off the North-West
-coast of Europe.
+control, less reliable values, and sometimes segmentation faults.
 
 =cut

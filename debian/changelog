@@ -1,0 +1,5 @@
+libmojar-usb-perl (0.122) wheezy; urgency=low
+
+  * Added slurp,spurt (Util)
+
+ -- Nic Sandfield <niczero@cpan.org>  Wed, 12 Feb 2014 22:08 +0000

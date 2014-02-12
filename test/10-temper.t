@@ -13,7 +13,7 @@ subtest q{Basic} => sub {
 };
 
 SKIP: {
-  skip 'set TEST_TEMPER to enable this test (developer only!)', 1
+  skip 'set TEST_TEMPER to enable this test (developer only!)', 2
     unless $ENV{TEST_TEMPER};
 
 my $usb;

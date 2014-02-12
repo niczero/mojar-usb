@@ -1,0 +1,4 @@
+0.122 2014-02-12
+  * Improved packaging.
+  * Extended tests (Log).
+  * Fixed bug where use-time params were ignored (Log).

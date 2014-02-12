@@ -1,6 +1,14 @@
+Changes
+debian/changelog
+lib/Mojar/Usb.pm
+lib/Mojar/Usb/Temper.pm
 LICENSE
 Makefile.PL
-lib/Mojar/Usb/Temper.pm
+MANIFEST
+MANIFEST.SKIP
+README.md
 test/00-load.t
 test/10-temper.t
-README.md
+test/manifest.t
+test/pod.t
+test/version.t
