@@ -21,8 +21,9 @@ my $usb;
 subtest q{Device::USB} => sub {
   ok my $du = Device::USB->new, 'new';
   ok my @list = $du->list_devices(
-    Mojar::Usb::Temper->vendor,
-    Mojar::Usb::Temper->product), 'list_devices';
+    Mojar::Usb::Temper->vendor,  # class attribute
+    Mojar::Usb::Temper->product  # class attribute
+  ), 'list_devices';
   is ref($list[0]), 'Device::USB::Device', 'found something';
   $usb = $list[0];
 };

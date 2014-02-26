@@ -22,7 +22,7 @@ WriteMakefile(
   },
   BUILD_REQUIRES => {'Test::More' => 0},
   CONFIGURE_REQUIRES => {'ExtUtils::MakeMaker' => '6.30'},
-  PREREQ_PM => {Mojolicious => 3.33, 'Device::USB' => 0.35},
+  PREREQ_PM => {Mojolicious => 3.33, 'Device::USB' => 0.35, Mojar => 1.053},
   EXE_FILES => [],
   test => {TESTS => 'test/*.t'}
 );

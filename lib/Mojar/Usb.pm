@@ -1,7 +1,7 @@
 package Mojar::Usb;
 use Mojo::Base -strict;
 
-our $VERSION = 0.122;
+our $VERSION = 0.131;
 
 1;
 __END__

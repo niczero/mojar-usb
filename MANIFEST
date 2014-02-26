@@ -1,5 +1,4 @@
 Changes
-debian/changelog
 lib/Mojar/Usb.pm
 lib/Mojar/Usb/Temper.pm
 LICENSE

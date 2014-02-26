@@ -5,16 +5,18 @@ our $VERSION = 0.122;
 
 use Device::USB;
 use Time::HiRes 'sleep';
+use Mojar::ClassShare 'have';
 
 # Attributes
 
-has vendor => 0x1130;   # Tenx Technology, Inc
-has product => 0x660c;  # HidTEMPer USB thermometer
+have vendor => 0x1130;   # Tenx Technology, Inc
+have product => 0x660c;  # HidTEMPer USB thermometer
 # Microdia device is 0xc45:0x7401
+
+have timeout => 90;  # ms
 
 has range_max => 120;
 has range_min => -40;
-has timeout => 90;  # ms
 has pause => 400;  # ms
 has samples => 3;
 has average => 1;  # 0: median; 1: mean
